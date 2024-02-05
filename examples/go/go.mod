@@ -1,4 +1,4 @@
-module provider-dsa
+module github.com/dprzybyl/pulumi-dsa/examples
 
 go 1.20
 
