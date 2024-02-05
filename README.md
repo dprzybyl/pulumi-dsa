@@ -65,7 +65,7 @@ This will:
    
 ```bash
 $ cd examples/simple
-$ yarn link @pulumi/xyz
+$ yarn link @pulumi/dsa
 $ yarn install
 $ pulumi stack init test
 $ pulumi up
