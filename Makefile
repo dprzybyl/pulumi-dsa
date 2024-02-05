@@ -33,6 +33,7 @@ test_provider::
 go_sdk:: $(WORKING_DIR)/bin/$(PROVIDER)
 	rm -rf sdk/go
 	pulumi package gen-sdk $(WORKING_DIR)/bin/$(PROVIDER) --language go
+	sed -i '' -e 's/"internal"/"github.com\/dprzybyl\/pulumi-dsa\/sdk\/go\/dsa\/internal"/g' sdk/go/$(PACK)/*.go
 
 nodejs_sdk:: VERSION := $(shell pulumictl get version --language javascript)
 nodejs_sdk::

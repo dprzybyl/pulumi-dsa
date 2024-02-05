@@ -7,8 +7,8 @@ import (
 	"fmt"
 
 	"github.com/blang/semver"
+	"github.com/dprzybyl/pulumi-dsa/sdk/go/dsa/internal"
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumi"
-	"internal"
 )
 
 type module struct {
