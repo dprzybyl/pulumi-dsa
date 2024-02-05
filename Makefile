@@ -1,10 +1,10 @@
-PROJECT_NAME := Pulumi Xyz Resource Provider
+PROJECT_NAME := Pulumi Dsa Resource Provider
 
-PACK             := xyz
+PACK             := dsa
 PACKDIR          := sdk
 PROJECT          := github.com/dprzybyl/pulumi-dsa
-NODE_MODULE_NAME := @pulumi/xyz
-NUGET_PKG_NAME   := Pulumi.Xyz
+NODE_MODULE_NAME := @pulumi/dsa
+NUGET_PKG_NAME   := Pulumi.Dsa
 
 PROVIDER        := pulumi-resource-${PACK}
 VERSION         ?= $(shell pulumictl get version)
